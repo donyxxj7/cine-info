@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine-Info | Buscador de Filmes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Cine-Info</h1>
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Buscar por um filme..." required>
+                <button type="submit">Buscar</button>
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2 id="page-title">Filmes Populares</h2>
+            
+            <div id="movies-container" class="movies-grid">
+                </div>
+            
+            <div id="loading" class="loading-spinner" style="display: none;"></div>
+
+            <div id="pagination-controls" class="pagination">
+                <button id="prev-page-btn">Anterior</button>
+                <span id="page-number-display">Página 1</span>
+                <button id="next-page-btn">Próxima</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Desenvolvido como projeto de portfólio.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
