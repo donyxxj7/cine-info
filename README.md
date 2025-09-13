@@ -24,7 +24,7 @@
 
 Cine-Info é uma aplicação web interativa e responsiva, desenvolvida para ser uma peça de portfólio, que permite aos usuários descobrir, pesquisar e obter informações detalhadas sobre filmes. O projeto consome a API do [The Movie Database (TMDB)](https://www.themoviedb.org/) para buscar dados em tempo real.
 
-### 🔗 [Acesse a demonstração ao vivo do projeto](https://dashing-kataifi-8b89dc.netlify.app/)
+### 🔗 [Acesse a demonstração ao vivo do projeto](https://infocine.netlify.app/)
 
 ---
 
